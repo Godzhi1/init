@@ -51,7 +51,7 @@ main {
 	background-color: aqua;
 }
 
-/*основа*/
+/*КАРТОЧКИ*/
 
 .product-card {
 	background-color:#B9CFB1;
@@ -94,11 +94,14 @@ border-radius: 12px;
   }
   
   .add-to-cart {
-	padding: 10px 20px;
-	border: none;
-	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
   }
 
+  button {
+	margin-left: 80px;
+	border-radius: 12px;
+  }
 
   /*категории*/
 
@@ -111,8 +114,17 @@ border-radius: 12px;
 	display: flex; 
 	list-style-type: none; 
 	padding: 0 auto;
-	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
  }
- li {
-	margin-right: 20px;
+
+ul li:first-child {
+	margin-left: 16px;
+}
+
+.li {
+	margin-left: 24px;
+padding-top: 10px;
+padding-bottom: 10px;
  }
+
