@@ -98,3 +98,21 @@ border-radius: 12px;
 	border: none;
 	cursor: pointer;
   }
+
+
+  /*категории*/
+
+  .categories {
+	width: 390px;
+	overflow-x: scroll;
+  }
+
+  .categories-list {
+	display: flex; 
+	list-style-type: none; 
+	padding: 0 auto;
+	padding-bottom: 20px;
+ }
+ li {
+	margin-right: 20px;
+ }
